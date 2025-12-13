@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class propo{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=Math.abs(a%10);
+        if((a%3==0 && a%5==0))
+            System.out.println("divisible by both 3 and 5");
+        else
+            System.out.println("not divisible by 3 and 5");
+        }
+
+    }
+    
+
